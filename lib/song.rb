@@ -16,9 +16,4 @@ class Song
     @@genres.push(genre)
 
   end
-
-  def name(name)
-    puts name
-  end
-
 end
