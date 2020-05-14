@@ -14,11 +14,11 @@ class Song
     @@count += 1
     @@artists.push(artist)
     @@genres.push(genre)
-    
+
   end
 
   def name(name)
-    puts name 
+    puts name
   end
 
 end
