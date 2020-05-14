@@ -3,11 +3,13 @@
 class Song
 
   attr_accessor :name, :artist, :genre
-
-  def new
   @@count = 0
   @@artists = []
   @@genres = []
+
+  def new (name, artist, genre)
+    
+
   end
 
 end
